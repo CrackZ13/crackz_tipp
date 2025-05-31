@@ -44,8 +44,8 @@ Citizen.CreateThread(function()
 
             SetTextComponentFormat("STRING")
             if canBuyTip then
-                --AddTextComponentString("Drücke ~INPUT_CONTEXT, um einen Tipp für $50.000 zu kaufen")
-                TriggerEvent('a_hud:HelpNotification', 'E', 'um einen Tipp für $50.000 zu kaufenn')
+                AddTextComponentString("Drücke ~INPUT_CONTEXT, um einen Tipp für $50.000 zu kaufen")
+                --TriggerEvent('a_hud:HelpNotification', 'E', 'um einen Tipp für $50.000 zu kaufen') --- falls ihr dort nh notify haben wollt < 3
             else
                 AddTextComponentString("Warte noch, bis du wieder einen Tipp kaufen kannst!")
                 --ESX.ShowNotification("Warte noch, bis du wieder einen Tipp kaufen kannst!")
